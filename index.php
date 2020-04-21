@@ -1,42 +1,46 @@
 <?PHP
-echo "<h3>typy proměnných</h3>"
+echo "<h3>typy proměnných</h3>";
 $vypnuto = false;
 
-        echo "<br>"
+        echo "<br>";
 
 echo "$vypnuto";
 
-        echo "<br>"
+        echo "<br>";
 
 echo "-1776251";
 
-        echo "<br>"
+        echo "<br>";
 
 echo "1,444";
 
-        echo "<br>"
+        echo "<br>";
 
 print " TEXTOVÝ ŘETĚZEC";
 
-        echo "<br>"
+        echo "<br>";
 
 $umrel = "pošel";
 
 echo "Pepíček nám $umrel";
 
-        echo "<br>"
+        echo "<br>";
 
-echo "<img src="sro.png" width="512" height="240" alt title="REDBULL">";
+echo "<img src='sro.png' />";
 
-        echo "<br>"
+        echo "<br>";
 
-echo "<h3>zpětné lomítko</h3>"
+echo "<h3>zpětné lomítko</h3>";
 
-        echo "<br>"
+        echo "<br>";
 
 echo "\\";
 
-        echo "<br>"
+        echo "<br>";
+
+echo "<h3>Operátory</h3>";
+
+        echo "<br>";
 
         $a = 5;
         $b = 10;

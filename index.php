@@ -1,4 +1,7 @@
 <?PHP
+
+include('nette/autoload.php');
+
 echo "<h3>typy proměnných</h3>";
 $vypnuto = false;
 
@@ -44,19 +47,19 @@ echo "<h3>Operátory</h3>";
 
         $a = 5;
         $b = 10;
-        var_dump($a+$b);
-        var_dump($a-$b);
-        var_dump($a/$b);
-        var_dump($a*$b);
-        var_dump($a++);
-        var_dump($a--);
-        var_dump($a+=$b);
-        var_dump($a-=$b);
-        var_dump($a/=$b);
-        var_dump($a==$b);
-        var_dump($a!=$b);
-        var_dump($a>$b);
-        var_dump($a<$b);
+        dump($a+$b);
+        dump($a-$b);
+        dump($a/$b);
+        dump($a*$b);
+        dump($a++);
+        dump($a--);
+        dump($a+=$b);
+        dump($a-=$b);
+        dump($a/=$b);
+        dump($a==$b);
+        dump($a!=$b);
+        dump($a>$b);
+        dump($a<$b);
 
 
 
